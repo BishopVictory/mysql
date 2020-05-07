@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @tel_book.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @tel_book.last_name %>
+</p>
+
+<p>
+  <strong>Cell:</strong>
+  <%= @tel_book.cell %>
+</p>
+
+<%= link_to 'Edit', edit_tel_book_path(@tel_book) %> |
+<%= link_to 'Back', tel_books_path %>

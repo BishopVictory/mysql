@@ -1,0 +1,2 @@
+class TelBook < ApplicationRecord
+end
